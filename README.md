@@ -1,6 +1,6 @@
 <h1 align='center'>🔥 Vite + React + TypeScript + Pico CSS + Styled Components 🔥</h1>
 
-A small react project starter, perfect for very small apps a beautiful minimal setup, powered by:
+A minimal react project starter, perfect for very small apps, powered by ⚡️:
 
 - [React (Typescript) ✨](https://react.dev/)
 - [Pico CSS (Minimal CSS Framework) 🎨](https://picocss.com/)
