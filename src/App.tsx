@@ -1,12 +1,21 @@
+import styled from 'styled-components';
+import { ThemeSwitcher } from './components/ThemeSwitcher';
+
+const MainWrapper = styled.main`
+	margin-top: 100px;
+`;
+
+const HeaderWrapper = styled.h1`
+	text-align: center;
+`;
+
 export default function App() {
 	return (
 		<>
-			<main className='container'>
-				<hgroup>
-					<h1>Basic template</h1>
-					<h2>A basic custom template for Pico using only CSS custom properties (variables).</h2>
-				</hgroup>
-			</main>
+			<MainWrapper className='container'>
+				<HeaderWrapper>React Starter For Small Projects 🚀</HeaderWrapper>
+			</MainWrapper>
+			<ThemeSwitcher />
 		</>
 	);
 }

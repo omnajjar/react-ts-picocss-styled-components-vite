@@ -3,29 +3,29 @@ import { PropsWithChildren, createContext, useContext, useEffect, useState } fro
 type ThemeMode = 'dark' | 'light';
 
 type ThemeContextType = {
-    theme: ThemeMode;
-    setTheme: (theme: ThemeMode) => void;
+	theme: ThemeMode;
+	setTheme: (theme: ThemeMode) => void;
 };
 
 const ThemeContext = createContext<ThemeContextType>({
-    theme: 'dark',
-    setTheme: () => {
-        /* noop */
-    },
+	theme: 'dark',
+	setTheme: () => {
+		/* noop */
+	},
 });
 
 type ThemeProviderProps = { defaultTheme: ThemeMode } & PropsWithChildren;
 
 export function ThemeProvider({ children, defaultTheme }: ThemeProviderProps) {
-    const [theme, setTheme] = useState<ThemeMode>(defaultTheme);
+	const [theme, setTheme] = useState<ThemeMode>(defaultTheme);
 
-    useEffect(() => {
-        document.documentElement.dataset.theme = theme;
-    }, [theme]);
+	useEffect(() => {
+		document.documentElement.dataset.theme = theme;
+	}, [theme]);
 
-    return <ThemeContext.Provider value={{ theme, setTheme }}>{children} </ThemeContext.Provider>;
+	return <ThemeContext.Provider value={{ theme, setTheme }}>{children} </ThemeContext.Provider>;
 }
 
 export function useTheme() {
-    return useContext(ThemeContext);
+	return useContext(ThemeContext);
 }
