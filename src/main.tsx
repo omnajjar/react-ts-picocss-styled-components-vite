@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 // styles
+import '@picocss/pico';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
