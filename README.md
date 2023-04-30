@@ -1,81 +1,64 @@
-<h1 align='center'>Vite + React + TypeScript + Eslint + Prettier Template ⚡</h1>
+<h1 align='center'>🔥 Vite + React + TypeScript + Pico CSS + Styled Components 🔥</h1>
 
-Create a new project with Vite, React JS, TypeScript, Eslint, Prettier in just 1 second and you don't need to setup anything.
+A small react project starter, perfect for very small apps a beautiful minimal setup, powered by:
 
-#### **Vercel Deploy: https://vite-react-ts-eslint-prettier.vercel.app**
+- [React (Typescript) ✨](https://react.dev/)
+- [Pico CSS (Minimal CSS Framework) 🎨](https://picocss.com/)
+- [Styled Components 💅](https://styled-components.com/)
 
-![image](https://user-images.githubusercontent.com/70432453/170648662-2ff424b9-74e9-4754-a04d-512fe1496a3b.png)
+And 🔋 batteries are included:
 
-## **Some Features 📋**
-
-Alias Import
-
-![image](https://user-images.githubusercontent.com/70432453/170644457-ede03cca-44e9-4543-94d3-412c9d317063.png)
-
-Hook Warning
-
-![image](https://user-images.githubusercontent.com/70432453/170638708-23a20ffd-156e-494a-84be-b1e1cfdb5c93.png)
-
-Prettier Warning
-
-![image](https://user-images.githubusercontent.com/70432453/170639043-24423ed1-73cc-4730-b270-2acea1ae0c74.png)
-
-Etc...
+- Dark Theme By Default
+- [Prettier](https://prettier.io/)
+- [Eslint](https://eslint.org/)
+<hr>
 
 ## **Using 📦**
 
-1. Clone Template
+1. Clone repo or use as a template
 
 ```
-git clone https://github.com/igdev116/vite-react-ts-eslint-prettier.git
+git clone git@github.com:omnajjar/react-ts-picocss-styled-components-vite.git
 ```
 
 2. Install Packages
 
 ```
-yarn install
+npm install
 ```
 
 3. Start Project
 
 ```
-yarn dev
+npm run dev
 ```
 
-4. If you using git, delete the existing folder .git after cloning (open `git bash` or other terminal)
-
-```
-rm -rf .git
-```
-
-## **Options ✍️**
+## **Scripts ✍️**
 
 1. Check lint
 
 ```
-yarn lint
+npm run lint
 ```
 
 2. Fix lint
 
 ```
-yarn lint:fix
+npm run lint:fix
 ```
 
 3. Check prettier
 
 ```
-yarn prettier
+npm run prettier
 ```
 
-4. Fix prettier
+4. Fix lint and prettier
 
 ```
-yarn prettier:fix
+npm run format
 ```
 
-5. Fix lint and prettier
+## **License**
 
-```
-yarn format
-```
+Distributed under the MIT License. See `LICENSE.txt` for more information.
